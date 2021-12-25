@@ -1,0 +1,8 @@
+baseURL = "https://elhadiq.github.io/"
+languageCode = "en-us"  # Update to "en-gb" if you prefer, or another language!
+theme = "anatole"
+enableEmoji = true
+[params]
+title = "Zouhair El Hadiq Blog"
+author = "Zouhair El Hadiq"
+description = "teaching and courses"
