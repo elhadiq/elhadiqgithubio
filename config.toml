@@ -6,3 +6,5 @@ enableEmoji = true
 title = "Zouhair El Hadiq Blog"
 author = "Zouhair El Hadiq"
 description = "teaching and courses"
+profilePicture = "images/profile_pic.png"
+mainSections = ["blog"]
