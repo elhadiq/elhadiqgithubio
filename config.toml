@@ -3,8 +3,41 @@ languageCode = "en-us"  # Update to "en-gb" if you prefer, or another language!
 theme = "anatole"
 enableEmoji = true
 [params]
-title = "Zouhair El Hadiq Blog"
+title = """Zouhair"""
 author = "Zouhair El Hadiq"
 description = "teaching and courses"
 profilePicture = "images/profile_pic.png"
-mainSections = ["blog"]
+mainSections = ["post"]
+postSectionName = "blog"
+copyright = "2020-{{ YEAR }}"
+displayMode = "dark"
+doNotLoadAnimations = true
+contentratio = 0.8
+googleAnalytics = "G-D4752FG3GR"
+#readMore = true
+#fullPostContent = true
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/*"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+[languages]
+  [languages.en]
+    contentDir = "content/english"
+    languageName = "EN"
+    weight = 1
+
