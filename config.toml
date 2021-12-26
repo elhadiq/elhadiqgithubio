@@ -2,8 +2,9 @@ baseURL = "https://elhadiq.github.io/"
 languageCode = "en-us"  # Update to "en-gb" if you prefer, or another language!
 theme = "anatole"
 enableEmoji = true
+
 [params]
-title = """Zouhair"""
+title = """Zouhair El Hadiq	"""
 author = "Zouhair El Hadiq"
 description = "teaching and courses"
 profilePicture = "images/profile_pic.png"
@@ -13,9 +14,36 @@ copyright = "2020-{{ YEAR }}"
 displayMode = "dark"
 doNotLoadAnimations = true
 contentratio = 0.8
-googleAnalytics = "G-D4752FG3GR"
+gtagId = "G-D4752FG3GR"
 #readMore = true
 #fullPostContent = true
+enableMediumZoom = false
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/elhadiq"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/zelahadiq"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:elhaidq.pro@gmail.com"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/zelhadiq/"
+
+[[params.socialIcons]]
+icon = "fas fa-calendar"
+title = "Calendar"
+url = "https://calendly.com/elhadiq"
+
 [menu]
 
   [[menu.main]]
@@ -40,4 +68,8 @@ googleAnalytics = "G-D4752FG3GR"
     contentDir = "content/english"
     languageName = "EN"
     weight = 1
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
 
