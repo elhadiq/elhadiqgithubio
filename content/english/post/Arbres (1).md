@@ -7,10 +7,10 @@ Pour ne pas avoir à distinguer les nœuds suivant leur arité, il est pratique 
 
 <div class="alert alert-success" >
      Un ensemble E étant donné, on définit par induction les arbres binaires étiquetés par E en convenant que :
-<ul>
-<li> [  ] : est un arbre binaire sur E appelé l’arbre vide ;
-<li> si x ∈ E et si Fg et Fd sont deux arbres binaires étiquetés par E, alors A = [x,Fg , Fd ] est un arbre binaire étiqueté par E.
-</ul>
+
+- [  ] : est un arbre binaire sur E appelé l’arbre vide ;
+- si x ∈ E et si Fg et Fd sont deux arbres binaires étiquetés par E, alors A = [x,Fg , Fd ] est un arbre binaire étiqueté par E.
+
 </div>
 
 x est l’étiquette de la racine de A ; quant à Fg et Fd , ils sont appelés respectivement le sous-arbre gauche et le sous-arbre droit de l’arbre binaire A.<br>
@@ -53,22 +53,3 @@ print("La taille de F(4) est {}, et son hauteur est {}".format(taille(F4),hauteu
 
     La taille de F(4) est 9, et son hauteur est 4
     
-
-
-<div class="alert alert-success" role="alert">
-  This is a success alert—check it out!
-</div>
-<div class="alert alert-danger" role="alert">
-  This is a danger alert—check it out!
-</div>
-<div class="alert alert-warning" role="alert">
-  This is a warning alert—check it out!
-</div>
-<div class="alert alert-info" role="alert">
-  This is a info alert—check it out!
-</div>
-
-
-```python
-
-```
