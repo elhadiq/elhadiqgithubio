@@ -5,13 +5,12 @@
 On appelle arité d’un nœud le nombre de branches qui en partent 3 . Dans la suite de notre cours, nous nous intéresserons plus particulièrement aux arbres binaires, c’est à dire ceux dont chaque nœud a au plus deux fils.</br>
 Pour ne pas avoir à distinguer les nœuds suivant leur arité, il est pratique d’ajouter à l’ensemble des arbres binaires un arbre particulier appelé l’arbre vide. Ceci conduit à adopter la définition qui suit.
 
-<div class="alert alert-success" >
-     Un ensemble E étant donné, on définit par induction les arbres binaires étiquetés par E en convenant que :
+
+Un ensemble E étant donné, on définit par induction les arbres binaires étiquetés par E en convenant que :
 
 - [  ] : est un arbre binaire sur E appelé l’arbre vide ;
 - si x ∈ E et si Fg et Fd sont deux arbres binaires étiquetés par E, alors A = [x,Fg , Fd ] est un arbre binaire étiqueté par E.
 
-</div>
 
 x est l’étiquette de la racine de A ; quant à Fg et Fd , ils sont appelés respectivement le sous-arbre gauche et le sous-arbre droit de l’arbre binaire A.<br>
 De manière usuelle, on convient de ne pas faire figurer l’arbre vide dans les représentations graphiques des arbres binaires (voir la figure 2). Ainsi, suivant la représentation choisie les feuilles pourront désigner exclusivement l’arbre vide (et dans ce cas tous les nœuds seront d’arité égale à 2) ou alors les nœuds dont les deux fils sont vides (dans ce cas l’arité d’un nœud pourra être égale à 0, 1 ou 2). C’est cette seconde convention qui sera utilisée dans la suite de ce cours.
